@@ -1,0 +1,10 @@
+.table.no-border {
+	border-bottom: 0px !important;
+}
+.table.table.no-border th,
+.table.table.no-border td {
+	border: 1px !important;
+}
+.fixed-table-container {
+	border: 0px !important;
+}
