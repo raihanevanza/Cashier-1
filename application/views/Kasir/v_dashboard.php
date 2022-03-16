@@ -8,7 +8,7 @@
 							<div class="col-2 content-menu col-md-offset-2">
 						    	<div class="">
 						    		<div class="row justify-content-left">
-						    			<a href="<?php echo site_url('c_kasir/order');?>">
+						    			<a href="<?php echo site_url('/c_order');?>">
 						    				<img src="<?php echo base_url('asset/image/dashboard/order.png') ?>">
 					    				</a>
 						    		</div>

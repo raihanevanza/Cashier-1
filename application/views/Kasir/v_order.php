@@ -6,14 +6,14 @@
 					<div class="content-main-parent">
 						<div class="row justify-content-left">
 							<div class="col-2 image-chevron">
-								<a href="">
+								<a href="/cashier">
 									<img src="<?php echo base_url('asset/image/content/chevronBack.png') ?>">
 								</a>
 							</div>
 							<div class="col-md-offset-4 col-md-9 search-parent">
 								<form>
 									<div class="form-group has-search search-group">
-										<span class="fa fa-search form-control-feedback search-span "></span>
+									<span class="fa fa-search form-control-feedback search-span"></span>
 										<input type="text" class="form-control search-input" placeholder="| Search">
 									</div>
 								</form>
@@ -180,7 +180,7 @@
 
 								</div>
 								<div>
-									<button type="button" class="btn btn-primary btn-order-payment mt-4">Metode Pembayaran</button>
+									<button type="button" onclick="window.location='c_metodbayar';" class="btn btn-primary btn-order-payment mt-4">Metode Pembayaran</button>
 								</div>
 							</div>
 						</div>
