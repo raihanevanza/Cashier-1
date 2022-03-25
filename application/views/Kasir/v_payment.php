@@ -51,74 +51,66 @@
                     <div class="col-sm-12">
                         <h6 class="mb-4" style="color: black; margin-top: -15px;">Kopi Kenangan Pakansari</h6>
                     </div>
-                    <h5><label class="col-sm-12 col-form-label mt-3 mb-3" style="color: black;">Choose Menu to order</label></h5>
-                    <div class="col-sm-8 mt-3">
-                        <span class="fa fa-search form-control-feedback search-span"></span>
-                        <input type="text" class="form-control search-input" placeholder="| Search here">
-                    </div>
-                    <div class="card-group col-sm-11 mt-4 text-center">
-                        <div class="card mr-5 rounded">
-                            <div class="card-body shadow bg-white rounded">
-                                <img clas src="<?php echo base_url('asset/image/content/french.png') ?>" style="width: 35%;">
-                                <h5 class="card-title  mt-3">Food</h5>
-                            </div>
-                        </div>
-                        <div class="card mr-5 rounded">
-                            <div class="card-body shadow bg-white rounded">
-                                <img clas src="<?php echo base_url('asset/image/content/kopi.png') ?>" style="width: 40%;">
-                                <h5 class="card-title  mt-3">Coffee</h5>
-                            </div>
-                        </div>
-                        <div class="card mr-5 rounded">
-                            <div class="card-body shadow bg-white rounded">
-                                <img clas src="<?php echo base_url('asset/image/content/bubble.png') ?>" style="width: 30%;">
-                                <h5 class="card-title  mt-3">Beverage</h5>
-                            </div>
-                        </div>
-                        <div class="card mr-5 rounded">
-                            <div class="card-body shadow bg-white rounded">
-                                <img clas src="<?php echo base_url('asset/image/content/gelato.png') ?>" style="width: 32%;">
-                                <h5 class="card-title mt-3">Dessert</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <b>
-                            <h4 class="mt-5" style="font-weight: 500;">Best seller this month</h4>
-                        </b>
-                    </div>
+                    <div class="col-sm-10">
 
+                        <h5 class="card-title" style="color: black;"><i class="fa fa-angle-left"></i> Choose Payment Method</h5>
+                    </div>
+                    <div class="col-sm-2">
+                        <h5 style="color: black; font-weight: 600;"> Rp. 55.000</>
+                    </div>
                 </div>
 
 
-                <div class="col col-sm-11 mb-4 image-menu">
-                    <div class="card-text mb-1">Coffee
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-10 mb-2">
-                            <h5 class="card-title">Kopi Susu Guljaw</h5>
+                <div class="card-group col-lg-12 mt-4 text-center">
+                    <div class="card mr-5 rounded">
+                        <div class="card-body shadow bg-white rounded">
+                            <h5 class="card-title  mt-3" style="font-weight: 500;">Cash</h5>
+                            <h5 class="card-title  mt-3">Rp. 55.000</h5>
                         </div>
-                        <div class="card-title col-sm-2">14.000</div>
+                    </div>
+                    <div class="card mr-5 rounded">
+                        <div class="card-body shadow bg-white rounded mt-5">
+                            <img clas src="<?php echo base_url('asset/image/content/qris.png') ?>" style="width: 80%;">
+                        </div>
+                    </div>
+                    <div class="card mr-5 rounded">
+                        <div class="card-body shadow bg-white rounded">
+                            <img clas src="<?php echo base_url('asset/image/content/gopay.png') ?>" style="width: 100%;">
+                        </div>
                     </div>
                 </div>
-                <div class="col col-sm-11 mb-4 image-menu">
-                    <div class="card-text mb-1">Food
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-10  mb-2">
-                            <h5 class="card-title">Nasi Goreng lontea</h5>
+                <div class="card-group col-lg-12 mt-4 text-center">
+                    <div class="card mr-5 rounded">
+                        <div class="card-body shadow bg-white rounded mt-4">
+                            <img clas src="<?php echo base_url('asset/image/content/shopeepay.png') ?>" style="width: 100%;">
                         </div>
-                        <div class="card-title col-sm-2">36.000</div>
+                    </div>
+                    <div class="card mr-5 rounded">
+                        <div class="card-body shadow bg-white rounded mt-4">
+                            <img clas src="<?php echo base_url('asset/image/content/ovo.png') ?>" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="card mr-5 rounded">
+                        <div class="card-body shadow bg-white rounded">
+                            <img clas src="<?php echo base_url('asset/image/content/dana.png') ?>" style="width: 100%;">
+                        </div>
                     </div>
                 </div>
-                <div class="col col-sm-11 mb-4 image-menu">
-                    <div class="card-text mb-1">Coffee
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-10  mb-2">
-                            <h5 class="card-title">Kopi Susu Vanilla</h5>
+                <div class="card-group col-lg-12 mt-4 text-center">
+                    <div class="card mr-5 rounded">
+                        <div class="card-body shadow bg-white rounded mt-4">
+                            <img clas src="<?php echo base_url('asset/image/content/linkaja.png') ?>" style="width: 80%;">
                         </div>
-                        <div class="card-title col-sm-2">18.000</div>
+                    </div>
+                    <div class="card mr-5 rounded">
+                        <div class="card-body shadow bg-white rounded mt-4">
+                            <img clas src="<?php echo base_url('asset/image/content/edc.png') ?>" style="width: 40%;">
+                            <h5 class="card-title  mt-3">Food</h5>
+                        </div>
+                    </div>
+                    <div class="card mr-5" style="background-color: #ECEBEF; border-color: #ECEBEF;">
+                        <div class="card-body">
+                        </div>
                     </div>
                 </div>
 
@@ -161,7 +153,7 @@
                                                 <h6 class="card-title" style="color: black;">12/03/22</h6>
                                             </div>
                                         </div>
-                                        <div class="row mb-5">
+                                        <div class="row">
                                             <div class="col-sm-8">
                                                 Cashier
                                             </div>
@@ -169,8 +161,46 @@
                                                 <h6 class="card-title" style="color: black;">Rudi Salim</h6>
                                             </div>
                                         </div>
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                Customer
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h6 class="card-title" style="color: black;">Lolita Paquito</h6>
+                                            </div>
+                                        </div>
                                         <div class="row mb-5">
+                                            <div class="col-sm-8">
+                                                Table
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h6 class="card-title" style="color: black;">4</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col-sm-12">
+                                                <h5>Hardrock Coffee</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                Rp. 25.000
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h5> 1 </h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h5>Kopi Susu Guljaw</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                Rp. 25.000
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h5> 2 </h5>
                                             </div>
                                         </div>
                                         <div class="row mb-5">
@@ -185,32 +215,44 @@
                                             <div class="col-sm-12">
                                             </div>
                                         </div>
-                                        <div class="row mb-5">
-                                            <div class="col-sm-12">
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                Sub Total
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h6 class="card-title" style="color: black;">Rp. 53.000</h6>
                                             </div>
                                         </div>
-                                        <div class="row mb-5">
-                                            <div class="col-sm-12">
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                Discount
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h6 class="card-title" style="color: black;">Rp. 0</h6>
                                             </div>
                                         </div>
-                                        <div class="row mb-5">
-                                            <div class="col-sm-12">
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                Tax
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h6 class="card-title" style="color: black;">300</h6>
                                             </div>
                                         </div>
-                                        <div class="row mb-5">
-                                            <div class="col-sm-12">
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                Service fee
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h6 class="card-title" style="color: black;">Rp.1.200</h6>
                                             </div>
                                         </div>
-                                        <div class="row mb-5">
-                                            <div class="col-sm-12">
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                Total
                                             </div>
-                                        </div>
-                                        <div class="row mb-5">
-                                            <div class="col-sm-12">
-                                            </div>
-                                        </div>
-                                        <div class="row mb-4">
-                                            <div class="col-sm-12">
+                                            <div class="col-sm-4">
+                                                <h5 class="card-title" style="color: black;">Rp.55.000</h5>
                                             </div>
                                         </div>
                                     </div>
